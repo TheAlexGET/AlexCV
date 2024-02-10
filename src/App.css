@@ -121,6 +121,7 @@
   color: white;
 }
 .links__linkLight {
+  margin-left: 10%;
   display: flex;
   flex-direction: column;
   font-family: "Poppins", sans-serif;

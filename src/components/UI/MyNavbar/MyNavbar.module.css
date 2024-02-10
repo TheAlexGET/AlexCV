@@ -1,0 +1,29 @@
+.navbarLight{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 40px 0 40px;
+  background: linear-gradient(to bottom, #ffffff, #dbdbdb);
+  width: 100%;
+  z-index: 9999;
+  position: fixed;
+
+  font-size: x-large;
+  font-family: 'Press Start 2P', system-ui;
+}
+
+.navbarDark{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  z-index: 9999;
+  padding: 0 40px 0 40px;
+  background: linear-gradient(to bottom, #1F2544, #262f57);
+  width: 100%;
+  position: fixed;
+
+  font-size: x-large;
+  font-family: 'Press Start 2P', system-ui;
+}

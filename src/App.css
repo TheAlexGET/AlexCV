@@ -1,0 +1,130 @@
+.App.light{
+  background-color: rgb(193, 193, 193);
+  color: black;
+}
+.App.dark{
+  color: white;
+  background-color: #1F2544;
+}
+
+
+.about{
+  display: flex;
+  min-height: 100vh;
+}
+
+.about__text{
+  margin-top: 160px;
+  margin-left: 10%;
+  width: 60%;
+  text-align: center;
+
+  font-family: 'Press Start 2P', system-ui;
+}
+
+@media (min-width: 148px) {
+  .about__paragraph{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+  }
+  .about__text{
+    margin-top: 160px;
+    margin-left: 2%;
+    width: 60%;
+    text-align: center;
+    
+    font-size: smaller;
+    font-family: 'Press Start 2P', system-ui;
+  }
+  
+}
+
+@media (min-width: 548px) {
+  .about__paragraph{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: smaller;
+  }
+  .about__text{
+    margin-top: 160px;
+    margin-left: 10%;
+    width: 60%;
+    text-align: center;
+    
+    font-size: smaller;
+    font-family: 'Press Start 2P', system-ui;
+  }
+}
+
+
+@media (min-width: 672px) {
+  .about__paragraph{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+  }
+}
+
+
+@media (min-width: 1270px) {
+  .about__paragraph{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+  }
+}
+
+.skills{
+  min-height: 100vh;
+  margin-top: 80px;
+}
+
+.skills__header{
+  font-family: 'Press Start 2P', system-ui;
+  text-align: center;
+}
+
+/* AboutProjects */
+.projects{
+  margin-top: 100px;
+}
+
+.projects__header{
+  font-family: 'Press Start 2P', system-ui;
+  text-align: center;
+}
+
+/* MyLinks */
+.myLinks{
+  margin-top: 40px;
+}
+
+.links{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links__img{
+  width: 70px;
+}
+
+.links__linkDark {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  text-decoration: none;
+  color: white;
+}
+.links__linkLight {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  text-decoration: none;
+  color: #1f2544;
+}

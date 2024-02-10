@@ -1,0 +1,100 @@
+.board__dark{
+  display: flex;
+  width: 50%;
+  margin: 40px 0 0 25%;
+  background-color: rgba(193, 193, 193, 1);
+  border-radius: 25px;
+  color: #1F2544;
+}
+
+.board__light{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 40px 0 0 25%;
+  background-color: #1F2544;
+  border-radius: 25px;
+  color: white;
+}
+
+.board__content{
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: space-between;
+}
+
+.board__column{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+
+
+@media (min-width: 148px) {
+  .board__content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-left: 5%;
+    justify-content: space-between;
+  }
+  
+  .board__column h3{
+    margin: 10px 0 0 0;
+    font-size: 10px;
+    font-family:  'Press Start 2P', system-ui;
+  }
+  .board__column div{
+    margin: 10px 0 0 0;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+/* 
+@media (min-width: 548px) {
+
+} */
+
+
+@media (min-width: 672px) {
+  .board__content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-left: 10%;
+    justify-content: space-between;
+  }
+  
+  .board__column h3{
+    margin: 10px 0 0 0;
+    font-size: small;
+    font-family:  'Press Start 2P', system-ui;
+  }
+  .board__column div{
+    margin: 10px 0 0 0;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+  }
+} 
+
+
+@media (min-width: 848px) {
+  .board__content{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+  }  
+  .board__column h3{
+    margin: 10px 0 0 0;
+    font-size: medium;
+    font-family:  'Press Start 2P', system-ui;
+  }
+  .board__column div{
+    margin: 10px 0 0 0;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+  }
+}

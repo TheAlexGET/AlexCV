@@ -1,0 +1,44 @@
+.projects__project {
+  display: flex;
+  width: 80%;
+  margin: 40px 0 0 10%;
+}
+
+.projects__about {
+  margin-left: 5%;
+}
+
+@media (min-width: 50px) {
+  .projects__prev {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .projects__prev {
+    display: block;
+    width: 40%;
+  }
+}
+.projects__title {
+  font-family: "Press Start 2P", system-ui;
+}
+
+.projects__info {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+}
+
+.projects__linkDark {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  text-decoration: none;
+  color: white;
+}
+.projects__linkLight {
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  text-decoration: none;
+  color: #1f2544;
+}

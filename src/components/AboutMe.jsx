@@ -3,7 +3,7 @@ import MyImage from "./UI/MyImage/MyImage";
 import { useSpring, useInView, animated } from "@react-spring/web";
 import { Parallax, ParallaxLayer} from '@react-spring/parallax'
 import { useUrl } from "../hooks/useUrl";
-
+import satelite from '/src/assets/satellite4.svg'
 const AboutMe = () => {
   const parralax = useRef(true)
   const [p_left, slideFromLeft] = useInView(() => ({
@@ -35,7 +35,7 @@ const AboutMe = () => {
           }}
         />
         <ParallaxLayer offset={0.60} speed={-0.3} style={{ pointerEvents: 'none' }}>
-          <img src='src\assets\satellite4.svg' style={{ width: '15%', marginLeft: '30px' }} />
+          <img src={satelite} style={{ width: '15%', marginLeft: '30px' }} />
         </ParallaxLayer>
       </Parallax>
       <MyImage></MyImage>

@@ -1,10 +1,11 @@
 import React from 'react'
 import MyProject from './UI/MyProject/MyProject'
 import { info } from '../assets/projects_info'
+import prev_bricks from '/src/assets/bricks.png'
+import prev_tictactoe from '/src/assets/tictactoe.png'
 
 const AboutProjects = () => {
-  const prev_bricks = 'src/assets/bricks.png'
-  const prev_tictactoe = 'src/assets/tictactoe.png'
+
   return (
     <div className='projects'>
       {/* Paralax */}

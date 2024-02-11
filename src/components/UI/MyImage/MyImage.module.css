@@ -1,6 +1,7 @@
 /* CurvedLinesComponent.module.css */
-
-
+.container{
+  z-index: 1;
+}
 
 @media (min-width: 100px) {
   .myImage {

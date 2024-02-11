@@ -9,7 +9,7 @@ const MyLinks = () => {
     <div className='myLinks'>
       <h1 className='projects__header'>My Links</h1>
       <div className='links'>
-        <div href=""><img src={gmail} alt="" className='links__img'/></div>
+        <a href="mailto:sucevanalex06@gmail.com"><img src={gmail} alt="" className='links__img'/></a>
         <a href="https://www.linkedin.com/in/alexandr-sucevan-834216267"><img src={linkedin} alt="" className='links__img'/></a>
         <a href="https://t.me/sucevan"><img src={telegram} alt="" className='links__img'/></a>
       </div>

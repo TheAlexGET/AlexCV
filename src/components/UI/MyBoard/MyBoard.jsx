@@ -30,6 +30,7 @@ const MyBoard = () => {
           <div>WebPack</div>
           <div>MobX</div>
           <div>React Spring</div>
+          <div>Docker</div>
           <div>Figma</div>
           <div>JQuery</div>
           <div>Python</div>

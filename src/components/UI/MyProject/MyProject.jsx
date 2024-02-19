@@ -10,7 +10,7 @@ const MyProject = ({prev, title, info, link}) => {
       <div className={cl.projects__about}>
         <div className={cl.projects__title}>{title}</div>
         <div className={cl.projects__info}>{info}</div>
-        <a href={link} className={theme == 'dark' ? cl.projects__linkDark : cl.projects__linkLight}>{link}</a>
+        <a target='_blank' href={link} className={theme == 'dark' ? cl.projects__linkDark : cl.projects__linkLight}>{link}</a>
       </div>
     </div>
   )

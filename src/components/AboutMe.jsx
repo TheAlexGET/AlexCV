@@ -22,6 +22,10 @@ const AboutMe = () => {
     }
   }));
 
+  const getMyAge = () => {
+    return Math.floor((Date.now() - new Date('3/12/2006')) / 1000 / 60 / 60 / 24 / 365.2425)
+  }
+
   return (
     <div className="about">
       <Parallax ref={parralax} pages={1}>
@@ -47,7 +51,7 @@ const AboutMe = () => {
           ref={p_left}
           style={ window.innerWidth > 988 ? { ...slideFromLeft } : {}}
         >
-          I am a dedicated 17-year-old front-end developer with a profound
+          I am a dedicated {getMyAge()}-year-old front-end developer with a profound
           interest in web development, particularly in utilizing the power of
           React. From a young age, I've been fascinated by the possibilities of
           the digital realm, and I've immersed myself in the world of coding to

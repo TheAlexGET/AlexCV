@@ -11,7 +11,7 @@ const AboutProjects = () => {
       {/* Paralax */}
       <h1 className='projects__header'>My Projects</h1>
       <MyProject prev={prev_bricks} title={'Bricks'} info={info.bricks} link={'https://alexbricks.netlify.app/'}></MyProject>
-      <MyProject prev={prev_tictactoe} title={'TicTacToe'} info={info.tictactoe} link={'https://tictactoe-by-sucevan.netlify.app/'}></MyProject>
+      {/* <MyProject prev={prev_tictactoe} title={'TicTacToe'} info={info.tictactoe} link={'https://tictactoe-by-sucevan.netlify.app/'}></MyProject> */}
     </div>
   )
 }
